@@ -1,0 +1,152 @@
+site_name: 百度地图 Flutter 文档
+site_description: Flutter 百度地图 SDK 完整文档
+site_author: Baidu Maps Team
+site_url: https://example.com
+
+repo_name: baidu_map_flutter_docs
+repo_url: https://github.com/example/baidu_map_flutter_docs
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗色模式
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: 切换到亮色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search:
+      lang: zh
+
+nav:
+  - 首页: index.md
+  - 项目配置:
+    - 01_项目配置/README.md
+    - Flutter百度地图API集成指南: 01_项目配置/Flutter百度地图API集成指南.md
+    - Flutter百度地图API集成指南(补充): 01_项目配置/Flutter百度地图API集成指南_1.md
+    - Flutter百度地图SDK密钥获取教程: 01_项目配置/Flutter百度地图SDK密钥获取教程.md
+    - Flutter百度地图SDK文档: 01_项目配置/Flutter百度地图SDK文档.md
+    - Flutter百度地图SDK集成指南: 01_项目配置/Flutter百度地图SDK集成指南.md
+    - Flutter百度地图SDK集成教程: 01_项目配置/Flutter百度地图SDK集成教程.md
+    - Flutter百度地图定位权限配置: 01_项目配置/Flutter百度地图定位权限配置.md
+    - Flutter百度地图插件集成指南: 01_项目配置/Flutter百度地图插件集成指南.md
+    - 百度地图API密钥申请指南: 01_项目配置/百度地图API密钥申请指南.md
+    - 百度地图Flutter定位插件集成教程: 01_项目配置/百度地图Flutter定位插件集成教程.md
+  - 地图基础:
+    - 02_地图基础/README.md
+    - Flutter百度地图个性化地图教程: 02_地图基础/Flutter百度地图个性化地图教程.md
+    - Flutter百度地图室内图指南: 02_地图基础/Flutter百度地图室内图指南.md
+    - Flutter百度地图底图控制教程: 02_地图基础/Flutter百度地图底图控制教程.md
+    - Flutter百度地图离线地图教程: 02_地图基础/Flutter百度地图离线地图教程.md
+    - Flutter百度地图类型切换教程: 02_地图基础/Flutter百度地图类型切换教程.md
+    - Flutter百度地图粒子效果教程: 02_地图基础/Flutter百度地图粒子效果教程.md
+    - Flutter自定义瓦片图层教程: 02_地图基础/Flutter自定义瓦片图层教程.md
+  - 定位服务:
+    - 03_定位服务/README.md
+    - Flutter百度地图单次定位教程: 03_定位服务/Flutter百度地图单次定位教程.md
+    - Flutter百度地图定位接口指南: 03_定位服务/Flutter百度地图定位接口指南.md
+    - Flutter百度地图定位集成教程: 03_定位服务/Flutter百度地图定位集成教程.md
+    - Flutter百度地图连续定位教程: 03_定位服务/Flutter百度地图连续定位教程.md
+    - Flutter设备朝向监听教程: 03_定位服务/Flutter设备朝向监听教程.md
+    - 百度定位Flutter插件集成指南: 03_定位服务/百度定位Flutter插件集成指南.md
+  - 交互控制:
+    - 04_交互控制/README.md
+    - Flutter百度地图事件监听教程: 04_交互控制/Flutter百度地图事件监听教程.md
+    - Flutter百度地图交互方法指南: 04_交互控制/Flutter百度地图交互方法指南.md
+    - Flutter百度地图控件手势指南: 04_交互控制/Flutter百度地图控件手势指南.md
+  - 覆盖物绘制:
+    - 05_覆盖物绘制/README.md
+    - Flutter百度地图3D棱柱绘制教程: 05_覆盖物绘制/Flutter百度地图3D棱柱绘制教程.md
+    - Flutter百度地图3D模型绘制教程: 05_覆盖物绘制/Flutter百度地图3D模型绘制教程.md
+    - Flutter百度地图Overlay与热力图教程: 05_覆盖物绘制/Flutter百度地图Overlay与热力图教程.md
+    - Flutter百度地图批量标记教程: 05_覆盖物绘制/Flutter百度地图批量标记教程.md
+    - Flutter百度地图文字覆盖物教程: 05_覆盖物绘制/Flutter百度地图文字覆盖物教程.md
+    - Flutter百度地图点标记教程: 05_覆盖物绘制/Flutter百度地图点标记教程.md
+    - Flutter百度地图点聚合教程: 05_覆盖物绘制/Flutter百度地图点聚合教程.md
+    - Flutter百度地图绘图教程: 05_覆盖物绘制/Flutter百度地图绘图教程.md
+    - Flutter百度地图覆盖物层级指南: 05_覆盖物绘制/Flutter百度地图覆盖物层级指南.md
+  - 路线规划:
+    - 06_路线规划/README.md
+    - Flutter室内路线规划API教程: 06_路线规划/Flutter室内路线规划API教程.md
+    - Flutter市内公交路线规划教程: 06_路线规划/Flutter市内公交路线规划教程.md
+    - Flutter步行路线规划API示例: 06_路线规划/Flutter步行路线规划API示例.md
+    - Flutter百度驾车路线规划API教程: 06_路线规划/Flutter百度驾车路线规划API教程.md
+    - Flutter百度骑行路线规划教程: 06_路线规划/Flutter百度骑行路线规划教程.md
+    - Flutter跨城公交路线规划教程: 06_路线规划/Flutter跨城公交路线规划教程.md
+  - 检索搜索:
+    - 07_检索搜索/README.md
+    - Flutter地点输入提示检索教程: 07_检索搜索/Flutter地点输入提示检索教程.md
+    - Flutter百度地图POI检索教程: 07_检索搜索/Flutter百度地图POI检索教程.md
+    - Flutter百度地图公交检索教程: 07_检索搜索/Flutter百度地图公交检索教程.md
+    - Flutter百度地图地理编码教程: 07_检索搜索/Flutter百度地图地理编码教程.md
+    - Flutter百度地图天气查询API指南: 07_检索搜索/Flutter百度地图天气查询API指南.md
+    - Flutter百度地图行政区检索教程: 07_检索搜索/Flutter百度地图行政区检索教程.md
+  - 轨迹追踪:
+    - 08_轨迹追踪/README.md
+    - Flutter动态轨迹绘制教程: 08_轨迹追踪/Flutter动态轨迹绘制教程.md
+    - Flutter百度地图终端管理API教程: 08_轨迹追踪/Flutter百度地图终端管理API教程.md
+    - Flutter百度地图轨迹分析教程: 08_轨迹追踪/Flutter百度地图轨迹分析教程.md
+    - Flutter百度地图轨迹管理教程: 08_轨迹追踪/Flutter百度地图轨迹管理教程.md
+    - Flutter百度地图鹰眼API配额指南: 08_轨迹追踪/Flutter百度地图鹰眼API配额指南.md
+    - Flutter集成百度鹰眼插件教程: 08_轨迹追踪/Flutter集成百度鹰眼插件教程.md
+    - 百度地图Flutter轨迹追踪教程: 08_轨迹追踪/百度地图Flutter轨迹追踪教程.md
+    - 百度地图鹰眼轨迹Flutter插件教程: 08_轨迹追踪/百度地图鹰眼轨迹Flutter插件教程.md
+    - 百度鹰眼轨迹管理API指南: 08_轨迹追踪/百度鹰眼轨迹管理API指南.md
+  - 围栏管理:
+    - 09_围栏管理/README.md
+    - Flutter百度地图围栏管理教程: 09_围栏管理/Flutter百度地图围栏管理教程.md
+    - Flutter百度地图地理围栏教程: 09_围栏管理/Flutter百度地图地理围栏教程.md
+  - 工具服务:
+    - 10_工具服务/README.md
+    - Flutter海量点绘制教程: 10_工具服务/Flutter海量点绘制教程.md
+    - Flutter百度地图推荐上车点API: 10_工具服务/Flutter百度地图推荐上车点API.md
+    - 百度地图短串分享API教程: 10_工具服务/百度地图短串分享API教程.md
+  - 应用案例:
+    - 11_应用案例/README.md
+    - 智能物流与城市规划合作案例: 11_应用案例/智能物流与城市规划合作案例.md
+    - 智能物流与智慧出行合作案例: 11_应用案例/智能物流与智慧出行合作案例.md
+    - 百度智能物流与城市规划案例集: 11_应用案例/百度智能物流与城市规划案例集.md
+  - 问题解答:
+    - 12_问题解答/README.md
+    - Flutter百度地图SDK升级指南: 12_问题解答/Flutter百度地图SDK升级指南.md
+    - Flutter百度地图SDK常见问题: 12_问题解答/Flutter百度地图SDK常见问题.md
+    - Flutter百度地图定位插件升级指南: 12_问题解答/Flutter百度地图定位插件升级指南.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/example/baidu_map_flutter_docs

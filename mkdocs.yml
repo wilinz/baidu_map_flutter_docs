@@ -1,36 +1,59 @@
 site_name: 百度地图 Flutter 文档
 site_description: Flutter 百度地图 SDK 完整文档
 site_author: Baidu Maps Team
-site_url: https://example.com
+site_url: https://wilinz.github.io/baidu_map_flutter_docs/
 
-repo_name: baidu_map_flutter_docs
-repo_url: https://github.com/example/baidu_map_flutter_docs
+repo_name: wilinz/baidu_map_flutter_docs
+repo_url: https://github.com/wilinz/baidu_map_flutter_docs
 
 theme:
   name: material
   language: zh
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: blue
-      accent: blue
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: 切换到暗色模式
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: blue
-      accent: blue
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: 切换到亮色模式
   features:
-    - navigation.tabs
-    - navigation.sections
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
     - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.path
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
+    - navigation.tracking
     - search.highlight
     - search.share
-    - content.code.copy
+    - search.suggest
+    - toc.follow
+    - toc.integrate
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -43,8 +66,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
 
@@ -147,6 +170,29 @@ nav:
     - Flutter百度地图定位插件升级指南: 12_问题解答/Flutter百度地图定位插件升级指南.md
 
 extra:
+  homepage: https://wilinz.github.io/baidu_map_flutter_docs/
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/example/baidu_map_flutter_docs
+      link: https://github.com/wilinz/baidu_map_flutter_docs
+      name: GitHub 仓库
+    - icon: fontawesome/solid/globe
+      link: https://lbsyun.baidu.com/
+      name: 百度地图开放平台
+  analytics:
+    feedback:
+      title: 这个页面有帮助吗？
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 有帮助
+          data: 1
+          note: 感谢您的反馈！
+        - icon: material/emoticon-sad-outline
+          name: 需要改进
+          data: 0
+          note: 感谢您的反馈！我们会继续改进。
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
